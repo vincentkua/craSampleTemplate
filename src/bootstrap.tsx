@@ -1,7 +1,4 @@
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import Providers from "./Providers";
 
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-);
-root.render(<Providers />);
+ReactDOM.render(<Providers />, document.getElementById("root"));
